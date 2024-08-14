@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+  background-color: rgba(225, 225, 255, 0.7);
+}
+
+.box {
+  @apply text-center;
+}
+
+/* .size-6 {
+  @apply text-center flex justify-center items-center;
+} */
+
+.logo1 {
+  @apply flex justify-center items-center;
+}
+
+.size {
+  color: blue;
+  height: 6rem;
+}
+
+.spanHeader {
+  @apply text-stone-950;
+}
+
+.header {
+  @apply text-2xl font-bold;
+}
+
+.header {
+  box-shadow: 0 0 5px rgba(0, 0,  0,  4);
+}
+
+.header2 {
+  @apply text-2xl font-bold;
+}
+
+.big {
+  @apply justify-self-center items-center;
+}
+.container {
+  @apply h-96;
+}
+
+.write {
+  @apply flex justify-center flex-col items-center p-20 text-slate-500;
+}
+.writee {
+  @apply flex justify-center flex-col items-center;
+}
+
+.spanHeader {
+  @apply text-2xl font-bold p-2;
+}
+
+.subchild4 {
+  @apply items-stretch justify-stretch;
+}
+
+.name {
+  @apply text-sm md:text-lg font-semibold;
+}
+
+.talk {
+  @apply text-sm;
+}
+
+.info {
+  @apply flex flex-col justify-center items-center text-center p-1 gap-3;
+}
+
+.circle {
+  @apply h-[150PX] w-[150PX] rounded-full;
+}
+
+.circle {
+  @apply shadow-2xl;
+}
+
+.bannchild4 {
+  @apply flex flex-col items-center p-2;
+}
+
+.fa-brands {
+  @apply text-blue-600 transition ease-in-out duration-700 hover:text-blue-800 hover:scale-110;
+}
+
+.dimmer {
+  background-color: rgba(30, 26, 26, 0.6);
+}
+
+.footerlinks {
+  transition: ease-in-out 0.5sec;
+  &:hover {
+    border-bottom: 1px solid blue;
+  }
+}
+
+.anchor {
+  @apply h-5;
+}
